@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <img alt="division" src="//src/assets/dashboard2.png" width="100%">
+  <img alt="division" src="/src/assets/dashboard2.png" width="100%">
 </p>
 
 
