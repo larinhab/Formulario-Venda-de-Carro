@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #ddd;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #333;
+}
+
+p label {
+    color: #444;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+input [type="text"],
+input[tyle="number"],
+input[type="data"],
+input[type="file"]{
+    width: 400px;
+}
+
+.header {
+    display: flex;
+    height: 160px;
+    padding: 30px;
+    background-color: rgb(71, 65, 194);
+    justify-content: center;
+    
+}
+
+.header h3 {
+    color: white;
+    margin-top: 0;
+    font-family: 'Mina', sans-serif;
+    font-size: 30px;
+    
+}
+
+.form-container {
+    background-color: #fdfdfd;
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: -62px;
+}
+
+textarea {
+    padding: 10px 5px;
+}
+
+.form-header{
+    border-bottom: 1px solid #dfdfdf;
+    height: 45px;
+}
+
+.form-header p {
+    font-family: 'Mina', sans-serif, bold;
+    color: rgba(71, 65,194);
+    border-bottom: 2px solid rgba(71, 65,194);
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    height: 45px;
+    line-height: 45px;
+    
+}
+
+.form-body {
+    padding: 30px;
+}
+
+.form-title {
+    margin-bottom: 20px;
+}
+
+.form-body p{
+    margin-bottom: 20px;
+}
+
+.required-field {
+    color: red;
+}
+
+.box-input {
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.block {
+    display: block;
+}
+
+.optional-box {
+    display: inline-block;
+    margin: 0px 30px 30px 10px;
+}
+
+.optional-box li {
+    list-style: none;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    gap: 20px;
+}
+
+.box-input p {
+    margin-bottom: 15px;
+}
+
+.btn-submit {
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(71, 65,194);
+    color: #fff;
+    border: 2px solid transparent;
+    width: 80px;
+    height: 50px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.btn-submit:hover {
+    background-color: #fff;
+    border-color: rgba(71, 65,194);
+    color: rgba(71, 65,194);
+}
+
+.radio {
+    display: inline-block;
+    padding: 10px 5px;
+    margin-top: 10px;
+}
+
+.info {
+    border: 2px solid rgb(71, 65, 194);
+    background-color: white;
+    margin: 0px auto 30px;
+    padding: 15px;
+    width: 900px;
+    max-width: 1100px;
+}

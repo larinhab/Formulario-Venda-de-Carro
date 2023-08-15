@@ -1,0 +1,44 @@
+@media (max-width: 1100px) {
+
+}
+
+@media (max-width: 900px) {
+
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 65%;
+    }
+
+    .form-container {
+        width: 100%;
+        margin-left: 5%;
+        margin-right: 30%;
+    }
+    .form-header {
+        font-size: 16px;
+    }
+
+    .header{
+        width: 95%;
+        padding: 0 2rem;
+    }
+
+    .header h3 {
+        font-size: 20px;
+    }
+    
+    .btn-submit {
+        margin: 10px 30px;
+        font-size: 12px;
+        margin-left: 30px;
+    }
+
+    .info {
+        width: 40%;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-right: 140px;
+    }
+}
